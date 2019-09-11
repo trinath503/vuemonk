@@ -191,7 +191,7 @@ export default {
                 context.strokeStyle = 'red';
                 context.fillStyle = "blue";
                 context.font = "sans-serif";
-                context.fillText(face_details, canvas_x1+50, canvas_y1-10);
+                context.fillText(face_details, canvas_x1, canvas_y1-10);
                 context.stroke();
             }
             img.src = input_image;

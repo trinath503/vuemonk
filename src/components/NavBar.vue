@@ -9,6 +9,7 @@
                 <ul class="nav navbar-nav">
                     <router-link to="/contactus" activeClass="active" tag="li"><a>Contact Us</a></router-link>
                     <router-link to="/userslist" activeClass="active" tag="li"><a>userslist</a></router-link>
+                    <router-link to="/video" activeClass="active" tag="li"><a>video</a></router-link>
                     <!-- <router-link to="/images" activeClass="active" tag="li"><a>Images</a></router-link> -->
                 </ul>
                 <button class="navbar-text navbar-right" @click="logout">Logout</button>

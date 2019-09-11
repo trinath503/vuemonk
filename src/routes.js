@@ -2,6 +2,7 @@ import Home from './components/Home.vue';
 import ContactUs from './components/Contact.vue';
 import UsersList  from './components/UserDetails.vue';
 import Login from './components/Login.vue';
+import Video from './components/video.vue';
 export const routes = [
 
 	{
@@ -23,5 +24,10 @@ export const routes = [
 		name: 'UsersList',
 		path: '/userslist',
 		component: UsersList
+	},
+	{
+		name: 'Video',
+		path: '/video',
+		component: Video
 	}
 ]
